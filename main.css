@@ -11,6 +11,11 @@ body {
     src: url("assets/henriette_black.woff") format('woff');
 }
 
+@font-face {
+    font-family: "henriette-reg";
+    src: url("assets/henriette_reg.woff") format('woff');
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -18,7 +23,6 @@ body {
     background-image: url(assets/hero-background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 .hero__text {
@@ -52,24 +56,38 @@ body {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
 }
 
 .content {
-    font-family: "henriette";
+    font-family: "henriette_reg";
     display: flex;
+}
+
+.content-pro {
+    font-family: "henriette_reg";
+    font-size: 22px;
+    background-color: black;
+    color: #E4B242;
+    padding: 20px 0 20px 0;
+}
+
+.content-pro p{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
 }
 
 .content__left {
     font-size: 40px;
+    font-family: "henriette";
     flex-basis: 50%;
+    margin: 0px 0px 0px 0px;
     padding: 0 40px 0 40px;
     text-align: center;
     color: #7B0000;
 }
 
 .content__right {
-    font-size: 20px;
+    font-size: 26px;
     flex-basis: 50%;
     padding: 0 40px 0 40px;
     border-left: 4px solid #7B0000;
@@ -85,26 +103,29 @@ body {
     font-family: "henriette";
     text-align: center;
     color: #7B0000;
+    border-bottom: 4px solid #7B0000;
+    border-top: 4px solid #7B0000;
 
 }
 
 .body__chapter {
-    font-size: 50px;
+    font-size: 40px;
     font-family: "henriette";
     color: #7B0000;
-    border-bottom: 4px solid #7B0000;
+
 }
 
 .body__top {
     font-size: 20px;
-    font-family: "henriette";
-    padding: 40px 0 40px 0;
+    font-family: "henriette_reg";
+    padding: 20px 200px 20px 200px;
 }
 
 .body__mid {
     font-size: 20px;
-    font-family: "henriette";
+    font-family: "henriette_reg";
     background-color: #141414;
     max-width: 100%;
     color: #E4B242;
-    padding: 40px 0 40px 0;
+    padding: 20px 200px 20px 200px;
+}
