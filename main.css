@@ -61,6 +61,7 @@ body {
 }
 
 .content__left {
+    font-size: 40px;
     flex-basis: 50%;
     padding: 0 40px 0 40px;
     text-align: center;
@@ -68,6 +69,7 @@ body {
 }
 
 .content__right {
+    font-size: 20px;
     flex-basis: 50%;
     padding: 0 40px 0 40px;
     border-left: 4px solid #7B0000;
@@ -79,18 +81,30 @@ body {
 }
 
 .content__read {
+    font-size: 40px;
     font-family: "henriette";
     text-align: center;
     color: #7B0000;
 
 }
 
-.body__top {
+.body__chapter {
+    font-size: 50px;
+    font-family: "henriette";
+    color: #7B0000;
+    border-bottom: 4px solid #7B0000;
+}
 
+.body__top {
+    font-size: 20px;
+    font-family: "henriette";
+    padding: 40px 0 40px 0;
 }
 
 .body__mid {
+    font-size: 20px;
+    font-family: "henriette";
     background-color: #141414;
     max-width: 100%;
     color: #E4B242;
-}
+    padding: 40px 0 40px 0;
