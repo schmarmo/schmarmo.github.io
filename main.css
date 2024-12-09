@@ -1,0 +1,80 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E4B242;
+}
+
+@font-face {
+    font-family: "henriette";
+    src: url("assets/henriette_black.woff") format('woff');
+}
+
+.hero-container {
+    
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 615px;
+    background-image: url(assets/hero-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.hero__text {
+    font-family: "henriette";
+    text-align: right;
+    max-width: 60%;
+    padding-top: 140px;
+}
+
+.hero__croc {
+    margin: 0;
+    font-size: 115px;
+    line-height: 90px;
+    color: #E4B242;
+}
+
+.hero__browse {
+    margin: 0;
+    font-size: 48px;
+    line-height: 48px;
+    color: white;
+}
+
+.hero__bruno {
+    margin: 0;
+    font-size: 80px;
+    color: #E4B242;
+}
+
+.content-container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.content {
+    font-family: "henriette";
+    display: flex;
+}
+
+.content__left {
+    flex-basis: 50%;
+    padding: 0 40px 0 40px;
+}
+
+.content__right {
+    flex-basis: 50%;
+    padding: 0 40px 0 40px;
+    border-left: 2px solid red;
+}
+
+.cred {
+    color: red;
+}
