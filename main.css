@@ -19,7 +19,7 @@ body {
 .hero {
     position: relative;
     width: 100%;
-    height: 615px;
+    height: 38.4375rem;
     background-image: url(assets/hero-background.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,31 +29,31 @@ body {
     font-family: "henriette";
     text-align: right;
     max-width: 60%;
-    padding-top: 140px;
+    padding-top: 8.75rem;
 }
 
 .hero__croc {
     margin: 0;
-    font-size: 115px;
-    line-height: 90px;
+    font-size: 7.1875rem;
+    line-height: 5.625rem;
     color: #E4B242;
 }
 
 .hero__browse {
     margin: 0;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 3rem;
+    line-height: 3rem;
     color: white;
 }
 
 .hero__bruno {
     margin: 0;
-    font-size: 80px;
+    font-size: 5rem;
     color: #E4B242;
 }
 
 .content-container {
-    max-width: 1400px;
+    max-width: 87.5rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -65,67 +65,141 @@ body {
 
 .content-pro {
     font-family: "henriette_reg";
-    font-size: 22px;
+    font-size: 1.375rem;
     background-color: black;
     color: #E4B242;
-    padding: 20px 0 20px 0;
+    padding: 1.25rem 0 1.25rem 0;
 }
 
-.content-pro p{
-    max-width: 1200px;
+.content-pro p {
+    max-width: 75rem;
     margin: 0 auto 0 auto;
 }
 
 .content__left {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: "henriette";
     flex-basis: 50%;
-    margin: 0px 0px 0px 0px;
-    padding: 0 40px 0 40px;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0 2.5rem 0 2.5rem;
     text-align: center;
     color: #7B0000;
 }
 
 .content__right {
-    font-size: 26px;
+    font-size: 1.625rem;
     flex-basis: 50%;
-    padding: 0 40px 0 40px;
-    border-left: 4px solid #7B0000;
-}
-
-.hero__brunopic {
-    max-width: 440;
-    max-height: 390;
+    padding: 1.875rem 2.5rem 0 2.5rem;
+    border-left: 0.25rem solid #7B0000;
 }
 
 .content__read {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-family: "henriette";
     text-align: center;
     color: #7B0000;
-    border-bottom: 4px solid #7B0000;
-    border-top: 4px solid #7B0000;
+    border-top: 0.25rem solid #7B0000;
+}
 
+.body-container {
+    background-color: #7B0000;
+    color: #E4B242;
+    margin: 0 auto 0 auto;
+}
+
+.body-container p {
+    max-width: 75rem;
+    text-align: left;
+    margin: 0 auto 0 auto;
+
+}
+
+.body-container h2 {
+    max-width: 75rem;
+    margin: 0 auto 0 auto;
 }
 
 .body__chapter {
-    font-size: 40px;
+    font-size: 2.5rem;
+    max-width: 75rem;
     font-family: "henriette";
-    color: #7B0000;
-
+    color: #E4B242;
+    padding: 2.5rem 0 2.5rem 0;
+    text-align: right;
+    border-bottom: 0.25rem solid #E4B242;
+    margin: 0 auto 0 auto;
 }
 
 .body__top {
-    font-size: 20px;
+    font-size: 1.25rem;
+    max-width: 75rem;
     font-family: "henriette_reg";
-    padding: 20px 200px 20px 200px;
+    padding: 2.5rem 1.25rem 2.5rem 1.25rem;
+    display: flex;
+    margin: 0 auto 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.top__fruit {
+
+    img {
+        border: 4px solid #E4B242;
+    }
+
+    flex-basis: 50%;
+    padding: 2.5rem 0 2.5rem 0;
+
+}
+
+.top__text {
+    flex-basis: 50%;
+    padding: 2.5rem 0 2.5rem 0;
+}
+
+.mid-container {
+    background-color: #141414;
 }
 
 .body__mid {
-    font-size: 20px;
+    max-width: 75rem;
+    padding: 2.5rem 1.25rem 2.5rem 1.25rem;
+    display: flex;
+    margin: 0 auto 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid__text {
+    flex-basis: 50%;
+    font-size: 1.25rem;
     font-family: "henriette_reg";
-    background-color: #141414;
+    color: #E4B242;
+    padding: 2.5rem 0 2.5rem 0;
+}
+
+.mid__tree {
+    img {
+        border: 4px solid #E4B242;
+    }
+
+    flex-basis: 50%;
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+}
+
+.body__end {
+    font-size: 1.25rem;
+    font-family: "henriette_reg";
+    background-color: #7B0000;
     max-width: 100%;
     color: #E4B242;
-    padding: 20px 200px 20px 200px;
+    padding: 2.5rem 1.25rem 2.5rem 1.25rem;
+}
+
+.credit {
+    text-align: center;
+    font-family: "henriette";
+    font-size: 1.25rem;
+    color: black;
+
 }
