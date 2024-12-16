@@ -197,9 +197,21 @@ body {
 }
 
 .credit {
-    text-align: center;
-    font-family: "henriette";
-    font-size: 1.25rem;
-    color: black;
+    position: relative;
+    width: 100%;
+    height: 38.4375rem;
+    background-image: url(assets/redbottom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.credit h3 {
+    margin: 0;
+    font-family: "henriette";
+    font-size: 80px;
+    line-height: 5.625rem;
+    color: #E4B242;
+    text-align: right;
+    max-width: 60%;
+    padding-top: 8.75rem;
 }
