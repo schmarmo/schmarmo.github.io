@@ -16,6 +16,57 @@ body {
     src: url("assets/henriette_reg.woff") format('woff');
 }
 
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    background-color: #141414;
+    font-family: "henreitte";
+    display: inline-block;
+
+}
+
+.drop {
+    background-color: #7b0000;
+    color: #E4B242;
+    padding: 16px;
+    font-size: 16px;
+    font-family: "henreitte";
+    border: none;
+}
+
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #7b00007e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropcontent a {
+    color: #E4B242;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropcontent a:hover {
+    background-color: #7B00007e;
+}
+
+.dropcontent a:hover {
+    background-color: #7B00007e;
+}
+
+.navbar:hover .dropcontent {
+    display: block;
+}
+
+.navbar:hover .drop {
+    background-color: #7b0000;
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -30,6 +81,7 @@ body {
     text-align: right;
     max-width: 60%;
     padding-top: 8.75rem;
+    padding-left: 5rem;
 }
 
 .hero__croc {
@@ -53,7 +105,7 @@ body {
 }
 
 .content-container {
-    max-width: 87.5rem;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -124,7 +176,7 @@ body {
     max-width: 75rem;
     font-family: "henriette";
     color: #E4B242;
-    padding: 2.5rem 0 2.5rem 0;
+    padding: 2.5rem 2.5rem 2.5rem 0;
     text-align: right;
     border-bottom: 0.25rem solid #E4B242;
     margin: 0 auto 0 auto;
@@ -139,6 +191,8 @@ body {
     margin: 0 auto 0 auto;
     align-items: center;
     justify-content: center;
+    border-right: 0.25rem solid #E4B242;
+    border-bottom: 0.25rem solid #E4B242;
 }
 
 .top__fruit {
@@ -148,7 +202,7 @@ body {
     }
 
     flex-basis: 50%;
-    padding: 2.5rem 0 2.5rem 0;
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
 
 }
 
@@ -168,6 +222,8 @@ body {
     margin: 0 auto 0 auto;
     align-items: center;
     justify-content: center;
+    border-left: 0.25rem solid #E4B242;
+    border-bottom: 0.25rem solid #E4B242;
 }
 
 .mid__text {
@@ -187,13 +243,39 @@ body {
     padding: 2.5rem 2.5rem 2.5rem 2.5rem;
 }
 
-.body__end {
-    font-size: 1.25rem;
-    font-family: "henriette_reg";
+.end-container {
     background-color: #7B0000;
-    max-width: 100%;
+    margin: 0 auto 0 auto;
+    width: 100%;
+}
+
+.body__end {
+    max-width: 1200px;
+    padding: 40px 20px 40px 20px;
+    display: flex;
+    margin: 0 auto 0 auto;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.25rem solid #E4B242;
+    border-bottom: 0.25rem solid #E4B242;
+}
+
+.end__houses {
+    img {
+        border: 0.25rem solid #E4B242;
+    }
+
+    flex-basis: 50%;
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+
+}
+
+.end__text {
+    flex-basis: 50%;
+    font-size: 20px;
+    font-family: "henriette_reg";
     color: #E4B242;
-    padding: 2.5rem 1.25rem 2.5rem 1.25rem;
+    padding: 40px 0 40px 0;
 }
 
 .credit {
@@ -208,10 +290,21 @@ body {
 .credit h3 {
     margin: 0;
     font-family: "henriette";
-    font-size: 80px;
+    font-size: 5rem;
     line-height: 5.625rem;
     color: #E4B242;
     text-align: right;
     max-width: 60%;
     padding-top: 8.75rem;
+}
+
+.credit li {
+    margin: 0;
+    font-family: "henriette";
+    font-size: 1.5625rem;
+    line-height: 5.625rem;
+    color: #E4B242;
+    text-align: right;
+    max-width: 60%;
+    padding-top: 1.5rem;
 }
