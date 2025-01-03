@@ -485,7 +485,8 @@ a:visited {
 
     .hero__text {
         padding-left: 4rem;
-        max-width: 70%;
+        padding-bottom: 3rem;
+        max-width: 60%;
     }
 
     .content__left,
@@ -530,6 +531,7 @@ a:visited {
 
     .hero__text {
         padding-left: 5rem;
+        padding-bottom: 4rem;
         max-width: 60%;
     }
 
