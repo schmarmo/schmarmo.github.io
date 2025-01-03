@@ -218,7 +218,9 @@ body {
 }
 
 .body__mid {
+    font-size: 1.25rem;
     max-width: 75rem;
+    font-family: "henriette_reg";
     padding: 2.5rem 1.25rem 2.5rem 1.25rem;
     display: flex;
     margin: 0 auto 0 auto;
@@ -280,6 +282,20 @@ body {
     padding: 40px 0 40px 0;
 }
 
+.schulzcol {
+    width: 100%;
+    background-color: #141414;
+}
+
+.schulz {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    font-size: 1rem;
+    font-family: "henriette_reg";
+    color: #E4B242;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
 .credit {
     position: relative;
     width: 100%;
@@ -287,26 +303,264 @@ body {
     background-image: url(assets/redbottom.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color: #E4B242;
+}
+
+.credittext {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    border-bottom: #E4B242;
 }
 
 .credit h3 {
     margin: 0;
     font-family: "henriette";
-    font-size: 5rem;
-    line-height: 5.625rem;
-    color: #E4B242;
+    font-size: 2.5rem;
     text-align: right;
     max-width: 60%;
-    padding-top: 8.75rem;
+    padding: 8rem 8rem 1.5rem 8rem;
 }
 
-.credit li {
+.credit h4 {
     margin: 0;
     font-family: "henriette";
-    font-size: 1.5625rem;
-    line-height: 5.625rem;
-    color: #E4B242;
+    font-size: 1.5rem;
     text-align: right;
     max-width: 60%;
-    padding-top: 1.5rem;
+    color: #ff2025;
+    padding: 1.5rem 8rem 1.5rem 8rem;
+
+}
+
+.credit p {
+    margin: 0;
+    font-family: "henriette";
+    font-size: 1rem;
+    text-align: right;
+    max-width: 60%;
+    color: #ff2025;
+    padding: 0 8rem 1rem 8rem;
+}
+
+.credita1 {
+    margin: 0;
+    font-family: "henriette_reg";
+    color: white;
+    text-align: right;
+    font-size: 1.5rem;
+    max-width: 60%;
+    padding: 0 8rem 1.5rem 8rem;
+}
+
+.credita2 {
+    margin: 0;
+    font-family: "henriette_reg";
+    color: white;
+    font-size: 1.5rem;
+    text-align: right;
+    max-width: 60%;
+    padding: 0 8rem 1.5rem 8rem;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #7B0000;
+}
+
+a:visited {
+    color: #E4B242;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        height: 2.5rem;
+    }
+
+    .hero__text {
+        padding-left: 2rem;
+        max-width: 100%;
+        padding-top: 5rem;
+    }
+
+    .content {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .content__left,
+    .content__right {
+        flex-basis: 100%;
+        padding: 1rem;
+    }
+
+    .hero__croc {
+        font-size: 4.5rem;
+    }
+
+    .hero__bruno {
+        font-size: 3rem;
+    }
+
+    .body__chapter {
+        font-size: 2rem;
+    }
+
+    .body__top,
+    .body__mid,
+    .body__end {
+        font-size: 1rem;
+        flex-direction: column;
+    }
+
+    .schulz {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .credit h3,
+    .credit h4 {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
+
+    .credit p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        height: 3rem;
+    }
+
+    .hero__text {
+        padding-left: 3rem;
+        max-width: 80%;
+    }
+
+    .content__left,
+    .content__right {
+        flex-basis: 50%;
+        padding: 1.5rem;
+    }
+
+    .hero__croc {
+        font-size: 6rem;
+    }
+
+    .hero__bruno {
+        font-size: 4.5rem;
+    }
+
+    .body__chapter {
+        font-size: 2.25rem;
+    }
+
+    .body__top,
+    .body__mid,
+    .body__end {
+        font-size: 1.25rem;
+    }
+
+    .credit h3,
+    .credit h4 {
+        font-size: 2rem;
+        padding: 2rem 4rem;
+    }
+
+    .credit p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .navbar {
+        height: 3.5rem;
+    }
+
+    .hero__text {
+        padding-left: 4rem;
+        max-width: 70%;
+    }
+
+    .content__left,
+    .content__right {
+        flex-basis: 50%;
+        padding: 2rem;
+    }
+
+    .hero__croc {
+        font-size: 7rem;
+    }
+
+    .hero__bruno {
+        font-size: 5rem;
+    }
+
+    .body__chapter {
+        font-size: 2.5rem;
+    }
+
+    .body__top,
+    .body__mid,
+    .body__end {
+        font-size: 1.5rem;
+    }
+
+    .credit h3,
+    .credit h4 {
+        font-size: 2.5rem;
+        padding: 3rem 6rem;
+    }
+
+    .credit p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1281px) {
+    .navbar {
+        height: 4rem;
+    }
+
+    .hero__text {
+        padding-left: 5rem;
+        max-width: 60%;
+    }
+
+    .content__left,
+    .content__right {
+        flex-basis: 50%;
+        padding: 2.5rem;
+    }
+
+    .hero__croc {
+        font-size: 8rem;
+    }
+
+    .hero__bruno {
+        font-size: 6rem;
+    }
+
+    .body__chapter {
+        font-size: 3rem;
+    }
+
+    .body__top,
+    .body__mid,
+    .body__end {
+        font-size: 1.75rem;
+    }
+
+    .credit h3,
+    .credit h4 {
+        font-size: 3rem;
+        padding: 4rem 8rem;
+    }
+
+    .credit p {
+        font-size: 1.2rem;
+    }
 }
